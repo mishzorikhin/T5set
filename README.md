@@ -6,6 +6,9 @@
 
 ## Датасеты
 
+- [noisy_chunks_ru_100](datasets/noisy_chunks_ru_100/README.md): 100 пар с обрезанными границами и соседними документами, JSONL порциями по 10.
+- [relations_graph_ru_200](datasets/relations_graph_ru_200/README.md): графовые связи; набор пополняется до 200 пар, JSONL порциями по 10.
+
 - [meetings_ru_hard_200](datasets/meetings_ru_hard_200/README.md): 200 пар, 50 синтетических русских текстов, четыре схемы. 80 пар с длинными диалогами. [Скачать ZIP](datasets/meetings_ru_hard_200/meetings_ru_hard_200.zip).
 - [meetings_ru_100](datasets/meetings_ru_100/README.md): 100 пар, 20 реальных исследовательских встреч ICSI, пять схем. Машинный перевод на русский с выборочными исправлениями. [Скачать TAR.XZ](datasets/meetings_ru_100/meetings_ru_100.tar.xz).
 
