@@ -1,0 +1,15 @@
+{
+  "pairs": 200,
+  "sources": 50,
+  "views": 4,
+  "transitions": 100,
+  "empty_histories": 4,
+  "min_input_tokens": 449,
+  "max_input_tokens": 738,
+  "splits": {
+    "train": 160,
+    "validation": 20,
+    "test": 20
+  },
+  "independent_human_review": false
+}
