@@ -6,7 +6,7 @@
 
 ## Датасеты
 
-- [events_relations_ru_200](datasets/events_relations_ru_200/README.md): событийные связи «кто — сделал что — с кем/чем», пополняется до 200 пар порциями по 10.
+- [events_relations_ru_200](datasets/events_relations_ru_200/README.md): 200 пар событийных связей «кто — сделал что — с кем/чем», JSONL порциями по 10.
 
 - [noisy_chunks_ru_100](datasets/noisy_chunks_ru_100/README.md): 100 пар с обрезанными границами и соседними документами, JSONL порциями по 10.
 - [relations_graph_ru_200](datasets/relations_graph_ru_200/README.md): 20 пар общего извлечения отношений.

@@ -1,0 +1,28 @@
+{
+  "examples": 200,
+  "independent_texts": 40,
+  "views": 5,
+  "events": 111,
+  "explicit_event_links": 49,
+  "unknown_actor_events": 2,
+  "split_rows": {
+    "train": 160,
+    "validation": 20,
+    "test": 20
+  },
+  "input_tokens_mt5": {
+    "min": 340,
+    "max": 530
+  },
+  "checks": [
+    "json_schema",
+    "participants_references",
+    "event_references",
+    "view_event_counts",
+    "split_disjoint",
+    "input_le_2048_mt5"
+  ],
+  "provenance": "assistant_authored_synthetic",
+  "independent_human_review": false,
+  "training_improvement_measured": false
+}
